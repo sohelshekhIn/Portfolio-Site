@@ -2,26 +2,215 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+} /* latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+} /* latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+/* latin */
+@font-face {
+  font-family: "Bodoni Moda";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bodonimoda/v23/aFTB7PxzY382XsXX63LUYJSPUqb0qojSAq1rZLkfbNxSXgM.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: "Bodoni Moda";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bodonimoda/v23/aFTQ7PxzY382XsXX63LUYJSKSKg.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: "Bodoni Moda";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bodonimoda/v23/aFTQ7PxzY382XsXX63LUYJSKSKg.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: "Libre Caslon Display";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/librecaslondisplay/v14/TuGOUUFxWphYQ6YI6q9Xp61FQzxDRKmzr1lWfxk.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.bg {
+  background: hsla(249, 18%, 15%, 1);
+
+  background: linear-gradient(
+    45deg,
+    hsla(249, 18%, 15%, 1) 0%,
+    hsla(250, 36%, 33%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(249, 18%, 15%, 1) 0%,
+    hsla(250, 36%, 33%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(249, 18%, 15%, 1) 0%,
+    hsla(250, 36%, 33%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#22202E", endColorstr="#403673", GradientType=1 );
+}
+
+.bg-90 {
+  background: hsla(250, 33%, 28%, 1);
+  background: linear-gradient(
+    0deg,
+    hsla(250, 33%, 28%, 1) 0%,
+    hsla(250, 36%, 33%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    0deg,
+    hsla(250, 33%, 28%, 1) 0%,
+    hsla(250, 36%, 33%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    hsla(250, 33%, 28%, 1) 0%,
+    hsla(250, 36%, 33%, 1) 100%
+  );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#372F5E", endColorstr="#3F3571", GradientType=1 );
+
+  /*background: hsla(250, 33%, 28%, 1);
+  background: linear-gradient(0deg, hsla(250, 33%, 28%, 1) 0%, hsla(250, 36%, 33%, 1) 100%);
+  background: -moz-linear-gradient(0deg, hsla(250, 33%, 28%, 1) 0%, hsla(250, 36%, 33%, 1) 100%);
+  background: -webkit-linear-gradient(0deg, hsla(250, 33%, 28%, 1) 0%, hsla(250, 36%, 33%, 1) 100%);
+  filter:;
+  progid: DXImageTransform.Microsoft.gradient( startColorstr="#372F5E", endColorstr="#3F3571", GradientType=1 );
+  */ /*background: hsla(249, 33%, 28%, 1);
+  background: linear-gradient(    145deg,    hsla(249, 33%, 28%, 1) 0%,    hsla(250, 36%, 33%, 1) 100%  );
+  */ /*background: -moz-linear-gradient(    145deg,    hsla(249, 33%, 28%, 1) 0%,    hsla(250, 36%, 33%, 1) 100%  );
+  */ /*filter:;
+  progid: DXImageTransform.Microsoft.gradient( startColorstr="#37305F", endColorstr="#3F3571", GradientType=1 );
+  */
+}
+
+.bg-md-90 {
+  background: rgb(42, 38, 65);
+  background: linear-gradient(
+    90deg,
+    rgba(42, 38, 65, 1) 0%,
+    rgba(63, 53, 113, 1) 100%
+  );
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  scroll-behavior: smooth;
+}
+
+.stack-bubble {
+  @apply text-xs rounded-full py-2 px-4  text-white;
+}
+
+.nextjs,
+.tailwindcss,
+.vercel {
+  @apply bg-black;
+}
+
+.express {
+  @apply text-black  outline outline-1;
+}
+
+.graphql {
+  @apply bg-pink-600;
+}
+
+.strapi {
+  @apply bg-blue-600;
+}
+
+.supabase {
+  @apply bg-green-600;
+}
+
+.js {
+  @apply bg-yellow-500 text-black;
+}
+.postgres,
+.ts {
+  @apply bg-sky-600;
 }
