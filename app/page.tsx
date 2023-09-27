@@ -1,7 +1,7 @@
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Home from "./components/Home";
-import Work from "./components/Work";
+import About from "../components/About";
+import Contact from "../components/Contact";
+import Home from "../components/Home";
+import Work from "../components/Work";
 
 export default function Index() {
   return (
@@ -9,7 +9,6 @@ export default function Index() {
       <Home />
       <About />
       <Work />
-      <Contact />
     </div>
   );
 }

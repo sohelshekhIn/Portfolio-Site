@@ -1,4 +1,5 @@
-import Navbar from "./components/Navbar";
+import Contact from "@/components/Contact";
+import Navbar from "../components/Navbar";
 import "./globals.css";
 import { Inter } from "next/font/google";
 
@@ -24,6 +25,7 @@ export default function RootLayout({
       <body className={inter.className + ""}>
         <Navbar />
         {children}
+        <Contact />
       </body>
     </html>
   );
