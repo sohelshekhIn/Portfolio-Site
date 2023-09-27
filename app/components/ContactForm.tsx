@@ -47,12 +47,7 @@ const ContactForm = () => {
   };
 
   return (
-    <form
-      className="mt-5 flex flex-col gap-8"
-      autoComplete="true"
-      autoSave="true"
-      autoFocus={false}
-    >
+    <form className="mt-5 flex flex-col gap-8">
       <input
         type="text"
         className="w-full py-2 text-lg text-lightWhite bg-secondary border-b-2 border-primary placeholder-primary placeholder-opacity-50 outline-none"
@@ -63,7 +58,6 @@ const ContactForm = () => {
           // console.log(e.target.value)
         }
         required
-        autoFocus
       />
       <input
         type="email"
