@@ -88,7 +88,7 @@ const ContactForm = () => {
       <div className="mt-3">
         {emailSent ? (
           <button disabled className="text-md mt-2 text-lightWhite py-2">
-            Thank you for your message, I'll be in touch in no time!
+            Thank you for your message, I&apos;ll be in touch in no time!
           </button>
         ) : (
           <button

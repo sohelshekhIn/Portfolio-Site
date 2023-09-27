@@ -57,8 +57,7 @@ const Contact = () => {
               </a>
               {/* email */}
               <a
-                href="mailto:
-              hola@sohel.live
+                href="mailto:hi@sohel.tech
               "
                 target="_blank"
                 rel="noreferrer"
