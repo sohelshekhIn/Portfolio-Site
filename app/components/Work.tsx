@@ -76,13 +76,13 @@ const Work = () => {
             </h1>
             <h2 className="text-primary">Student Management System</h2>
             <h4 className="text-gray-600 mt-2">
-              Transformed 'Miror Institute' with a Student Management System,
-              handling student data, attendance, assessments, and homework
-              submissions via a user-friendly dashboard. Managed staff access,
-              batch organization, and SMS notifications. Replaced traditional
-              methods with Next.js v12, Strapi, Express.js, and PostgreSQL. As a
-              freelance developer, I led the entire project, overcoming
-              rendering challenges and intricate database design,
+              Transformed &apos;Miror Institute&apos; with a Student Management
+              System, handling student data, attendance, assessments, and
+              homework submissions via a user-friendly dashboard. Managed staff
+              access, batch organization, and SMS notifications. Replaced
+              traditional methods with Next.js v12, Strapi, Express.js, and
+              PostgreSQL. As a freelance developer, I led the entire project,
+              overcoming rendering challenges and intricate database design,
               revolutionizing education management
             </h4>
             <div className=" cursor-not-allowed">
