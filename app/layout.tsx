@@ -28,7 +28,7 @@ export default function RootLayout({
         strategy="afterInteractive"
         src="https://www.googletagmanager.com/gtag/js?id=G-B2HE0ZELXC"
       />
-      <Script strategy="afterInteractive">
+      <Script id="g-analytics" strategy="afterInteractive">
         {`window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
