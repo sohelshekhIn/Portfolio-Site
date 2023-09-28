@@ -2,6 +2,7 @@ import Contact from "@/components/Contact";
 import Navbar from "../components/Navbar";
 import "./globals.css";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,19 @@ export default function RootLayout({
       <head>
         <meta name="theme-color" content="#403672" />
       </head>
+      <Script
+        async
+        strategy="afterInteractive"
+        src="https://www.googletagmanager.com/gtag/js?id=G-B2HE0ZELXC"
+      />
+      <Script id="g-analytics" strategy="afterInteractive">
+        {`window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-B2HE0ZELXC');
+        `}
+      </Script>
+
       <body className={inter.className + ""}>
         <Navbar />
         {children}
