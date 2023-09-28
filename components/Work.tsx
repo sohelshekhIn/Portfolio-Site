@@ -1,4 +1,4 @@
-import { tssDesktop, tssMobile } from "@/public/images";
+import { tss } from "@/public/images";
 import Image from "next/image";
 
 const Work = () => {
@@ -8,11 +8,8 @@ const Work = () => {
         <h1 className="text-6xl font-moda">Work</h1>
         <div className="py-3 mt-8 flex flex-col gap-16">
           <div className="">
-            <div className="w-full bg-gray-300 h-80 overflow-y-scroll hidden md:block">
-              <Image src={tssDesktop} alt="the soulspace" className="" />
-            </div>
-            <div className="w-full bg-gray-300 h-80 overflow-y-scroll block md:hidden">
-              <Image src={tssMobile} alt="the soulspace" />
+            <div className="w-full bg-gray-300 h-[30rem] overflow-hidden ">
+              <Image src={tss} alt="the soulspace" />
             </div>
             <h1 className="mt-3 font-poppins text-secondary text-3xl font-semibold ">
               the soulspace
@@ -70,7 +67,16 @@ const Work = () => {
             </div>
           </div> */}
           <div className="">
-            <div className="w-full bg-gray-300 h-80"></div>
+            <div>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube-nocookie.com/embed/J2yxxGCQ6ps?si=xyfzoVMPr6uxhJla&amp;controls=0"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
+            </div>
             <h1 className="mt-3 font-poppins text-secondary text-2xl font-semibold ">
               Mirror Institute
             </h1>
