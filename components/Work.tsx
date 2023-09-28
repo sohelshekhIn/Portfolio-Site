@@ -8,7 +8,7 @@ const Work = () => {
         <h1 className="text-6xl font-moda">Work</h1>
         <div className="py-3 mt-8 flex flex-col gap-16">
           <div className="">
-            <div className="w-full bg-gray-300 h-[30rem] overflow-hidden ">
+            <div className="w-full bg-gray-300 h-auto md:h-[30rem] overflow-hidden ">
               <Image src={tss} alt="the soulspace" />
             </div>
             <h1 className="mt-3 font-poppins text-secondary text-3xl font-semibold ">
@@ -69,8 +69,7 @@ const Work = () => {
           <div className="">
             <div>
               <iframe
-                width="560"
-                height="315"
+                className="w-full h-[30rem]"
                 src="https://www.youtube-nocookie.com/embed/J2yxxGCQ6ps?si=xyfzoVMPr6uxhJla&amp;controls=0"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
