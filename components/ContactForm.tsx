@@ -43,6 +43,7 @@ const ContactForm = () => {
         });
     } else {
       alert("Please fill in all fields.");
+      setEmailSending(true);
     }
   };
 
