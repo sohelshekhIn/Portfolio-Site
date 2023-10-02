@@ -1,11 +1,14 @@
 import { tss } from "@/public/images";
 import Image from "next/image";
+import { PositionAnimatedText } from "./AnimateClientComps/HomeText";
 
 const Work = () => {
   return (
     <div id="work" className="py-16  bg-lightWhite text-secondary">
       <div className="w-[90vw] max-w-3xl p-2 md:p-10 mx-auto">
-        <h1 className="text-6xl font-moda">Work</h1>
+        <h1 className="text-6xl font-moda">
+          <PositionAnimatedText onScroll={true}>Work</PositionAnimatedText>
+        </h1>
         <div className="py-3 mt-8 flex flex-col gap-16">
           <div className="">
             <div className="w-full bg-gray-300 h-auto md:h-[30rem] overflow-hidden ">
