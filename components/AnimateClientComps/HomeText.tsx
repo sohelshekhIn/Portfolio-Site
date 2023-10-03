@@ -35,6 +35,7 @@ const PositionAnimatedText = ({
   const controls = useAnimation();
   const isInView = useInView(ref, {
     once: true,
+    margin: "0px 0px -100px 0px",
   });
 
   useEffect(() => {
@@ -128,6 +129,7 @@ const OpacityAnimatedText = ({
 }: OpacityAnimatedTextProps) => {
   const text = React.Children.toArray(children).join(""); // convert children to string
   const letters = Array.from(text);
+
   const container: Variants = {
     hidden: {
       opacity: 0,
@@ -161,7 +163,7 @@ const OpacityAnimatedText = ({
   };
 
   return (
-    <motion.div
+    <motion.span
       className="overflow-hidden"
       variants={container}
       initial="hidden"
@@ -173,6 +175,57 @@ const OpacityAnimatedText = ({
           {letter === " " ? "\u00A0" : letter}
         </motion.span>
       ))}
+    </motion.span>
+  );
+};
+
+// opacity animated for element
+interface OpacityAnimatedElementProps extends React.PropsWithChildren {
+  children: React.ReactNode;
+  delay?: number;
+}
+
+const OpacityAnimatedElement = ({
+  children,
+  delay = 0,
+
+  ...rest
+}: OpacityAnimatedElementProps) => {
+  const ref = useRef(null);
+  const controls = useAnimation();
+  const isInView = useInView(ref, {
+    once: true,
+    margin: "0px 0px -150px 0px",
+  });
+
+  useEffect(() => {
+    if (isInView) {
+      controls.start("visible");
+    }
+  }, [isInView]);
+
+  const container: Variants = {
+    hidden: {
+      opacity: 0,
+    },
+    visible: (i = 1) => ({
+      opacity: 1,
+      transition: {
+        delay: delay,
+      },
+    }),
+  };
+
+  return (
+    <motion.div
+      ref={ref}
+      className="overflow-hidden"
+      variants={container}
+      initial="hidden"
+      animate={controls}
+      {...rest}
+    >
+      {children}
     </motion.div>
   );
 };
@@ -193,6 +246,7 @@ const SlideInText = ({
   const controls = useAnimation();
   const isInView = useInView(ref, {
     once: true,
+    margin: "0px 0px -150px 0px",
   });
 
   useEffect(() => {
@@ -271,6 +325,7 @@ const AnimateSkillList = ({ list, ...rest }: AnimateSkillListProps) => {
   const controls = useAnimation();
   const isInView = useInView(ref, {
     once: true,
+    margin: "0px 0px -200px 0px",
   });
 
   useEffect(() => {
@@ -283,14 +338,16 @@ const AnimateSkillList = ({ list, ...rest }: AnimateSkillListProps) => {
     hidden: {
       opacity: 0,
     },
-    visible: (i = 1) => ({
+    visible: {
       opacity: 1,
       transition: {
+        staggerChildren: 0.055,
+        delayChildren: 0.025,
         type: "spring",
         stiffness: 100,
         damping: 12,
       },
-    }),
+    },
   };
 
   const child = {
@@ -332,4 +389,5 @@ export {
   SlideInText,
   SlideInLoading,
   AnimateSkillList,
+  OpacityAnimatedElement,
 };
