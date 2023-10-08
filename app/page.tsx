@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://sohel.tech/bg-og.png",
+        url: "https://sohel.tech/og-bg.png",
         width: 1024,
         height: 1080,
         alt: "Sohel Shekh",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     title: "Sohel Shekh - Portfolio",
     description: "Freelance Full Stack Web Developer (Open to work)",
 
-    images: ["https://sohel.tech/bg-og.png"],
+    images: ["https://sohel.tech/og-bg.png"],
   },
 };
 
