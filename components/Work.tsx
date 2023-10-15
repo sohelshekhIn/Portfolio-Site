@@ -16,7 +16,7 @@ const Work = () => {
         </h1>
         <div className="py-3 mt-8 flex flex-col gap-16">
           <div className="">
-            <OpacityAnimatedElement delay={1.2}>
+            <OpacityAnimatedElement delay={0.5}>
               <div className="w-full bg-gray-300 h-auto md:h-[30rem] overflow-hidden ">
                 <Image src={tss} alt="the soulspace" />
               </div>
@@ -63,7 +63,7 @@ const Work = () => {
           </div>
           <div className="">
             <div>
-              <OpacityAnimatedElement delay={1.2}>
+              <OpacityAnimatedElement delay={0.5}>
                 <iframe
                   className="w-full h-[30rem]"
                   src="https://www.youtube-nocookie.com/embed/J2yxxGCQ6ps?si=xyfzoVMPr6uxhJla&amp;controls=0"
@@ -113,7 +113,7 @@ const Work = () => {
             </div>
           </div>
           <div className="">
-            <OpacityAnimatedElement delay={1.2}>
+            <OpacityAnimatedElement delay={0.5}>
               <div className="w-full bg-gray-300 h-auto  overflow-hidden ">
                 <Image src={maf} alt="Ma Ashapuri Fireworks" />
               </div>
