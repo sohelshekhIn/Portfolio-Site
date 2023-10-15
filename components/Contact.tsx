@@ -25,10 +25,10 @@ const Contact = () => {
                 Socials
               </PositionAnimatedText>
             </h1>
-            <div className="flex flex-col sm:flex-row gap-2 sm:gap-8 mt-5">
+            <div className="">
               <OpacityAnimatedElement
                 delay={0.3}
-                className="flex flex-col sm:flex-row gap-2 sm:gap-0 mt-5"
+                className="flex flex-col sm:flex-row gap-2 md:gap-10 mt-5"
                 margin="0px 0px -30px 0px"
               >
                 <a
