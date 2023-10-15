@@ -183,19 +183,22 @@ const OpacityAnimatedText = ({
 interface OpacityAnimatedElementProps extends React.PropsWithChildren {
   children: React.ReactNode;
   delay?: number;
+  className?: string;
+  margin?: string;
 }
 
 const OpacityAnimatedElement = ({
   children,
   delay = 0,
-
+  className,
+  margin,
   ...rest
 }: OpacityAnimatedElementProps) => {
   const ref = useRef(null);
   const controls = useAnimation();
   const isInView = useInView(ref, {
     once: true,
-    margin: "0px 0px -150px 0px",
+    margin: margin ? margin : "0px 0px -150px 0px",
   });
 
   useEffect(() => {
@@ -219,7 +222,7 @@ const OpacityAnimatedElement = ({
   return (
     <motion.div
       ref={ref}
-      className="overflow-hidden"
+      className={`overflow-hidden ${className}`}
       variants={container}
       initial="hidden"
       animate={controls}

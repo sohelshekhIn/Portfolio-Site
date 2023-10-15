@@ -1,4 +1,4 @@
 import loading from "./loading.gif";
 import tss from "./tss.jpeg";
-
-export { loading, tss };
+import maf from "./maf.jpg";
+export { loading, tss, maf };

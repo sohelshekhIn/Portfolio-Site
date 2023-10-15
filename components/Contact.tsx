@@ -26,13 +26,17 @@ const Contact = () => {
               </PositionAnimatedText>
             </h1>
             <div className="flex flex-col sm:flex-row gap-2 sm:gap-8 mt-5">
-              <OpacityAnimatedElement delay={0.3}>
+              <OpacityAnimatedElement
+                delay={0.3}
+                className="flex flex-col sm:flex-row gap-2 sm:gap-0 mt-5"
+                margin="0px 0px -30px 0px"
+              >
                 <a
                   href="
             https://www.linkedin.com/in/sohel-shekh-527222275/"
                   target="_blank"
                   rel="noreferrer"
-                  className="flex flex-row gap-2 items-center text-lightWhite/50 hover:text-lightWhite"
+                  className="flex flex-row gap-2 py-2 items-center text-lightWhite/50 hover:text-lightWhite"
                 >
                   {/* linked in svg */}
                   <svg
@@ -54,7 +58,7 @@ const Contact = () => {
               https://github.com/sohelshekhIn"
                   target="_blank"
                   rel="noreferrer"
-                  className="flex flex-row gap-2 items-center text-lightWhite/50 hover:text-lightWhite"
+                  className="flex flex-row gap-2 py-2 items-center text-lightWhite/50 hover:text-lightWhite"
                 >
                   {/* github svg */}
                   <svg
@@ -76,7 +80,7 @@ const Contact = () => {
               "
                   target="_blank"
                   rel="noreferrer"
-                  className="flex flex-row gap-2 items-center text-lightWhite/50 hover:text-lightWhite"
+                  className="flex flex-row gap-2 py-2 items-center text-lightWhite/50 hover:text-lightWhite"
                 >
                   {/* email svg */}
                   {/* <svg
