@@ -33,7 +33,7 @@ const Contact = () => {
               >
                 <a
                   href="
-            https://www.linkedin.com/in/sohel-shekh-527222275/"
+            https://www.linkedin.com/in/sohelshekh/"
                   target="_blank"
                   rel="noreferrer"
                   className="flex flex-row gap-2 py-2 items-center text-lightWhite/50 hover:text-lightWhite"
