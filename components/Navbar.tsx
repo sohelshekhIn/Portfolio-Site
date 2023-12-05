@@ -39,6 +39,13 @@ const Navbar = () => {
         <a className="w-full text-center" href="#contact">
           Contact
         </a>
+        <a
+          className="w-full text-center"
+          target="_blank"
+          href="/Sohel Shekh Resume.pdf"
+        >
+          Resume
+        </a>
       </motion.div>
     </div>
   );
