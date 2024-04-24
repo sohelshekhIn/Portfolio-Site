@@ -32,9 +32,9 @@ const Work = () => {
             <h4 className="text-gray-600 mt-2">
               <SlideInText onScroll={true} delay={0.5}>
                 <strong>
-                  Developed a full-fledged eCommerce website for "In the
-                  SoulSpace," enhancing customer experience, online sales, and
-                  brand presence.
+                  Developed a full-fledged eCommerce website for &quot;the
+                  SoulSpace,&quot; enhancing customer experience, online sales,
+                  and brand presence.
                 </strong>
                 <br />
                 <br />
@@ -69,7 +69,7 @@ const Work = () => {
                 <br />
                 <strong>Robust Security: </strong>
                 Implemented security measures to safeguard customer data and
-                transactions, maintaining customer trust and data integrity.{" "}
+                transactions, maintaining customer trust and data integrity.
                 <br />
                 <br />
                 <strong>Data-Driven Approach: </strong>
@@ -141,7 +141,7 @@ const Work = () => {
                 <strong>Enhanced Communication: </strong>
                 Implemented attendance reminders, SMS alerts for absences and
                 test results, and work submission notifications, fostering
-                better engagement between parents, staff, and students. <br />{" "}
+                better engagement between parents, staff, and students. <br />
                 <br /> <strong>Streamlined Processes: </strong>
                 Built modules for student management (add, view, export data),
                 test results management (faculty input, parent updates), and
