@@ -31,13 +31,56 @@ const Work = () => {
             </h2>
             <h4 className="text-gray-600 mt-2">
               <SlideInText onScroll={true} delay={0.5}>
-                &quot;Celebrate artistry and efficiency with &apos;the
-                soulspace,&apos; where I transformed an artisanal on-demand art
-                store into a digital sensation. Using Next.js 13, I built a
-                user-friendly website complete with a Strapi-powered Admin
-                Panel, diverse payment options, and logistics integration. This
-                project streamlined order management, marking my prowess in
-                design, development, and tech support as a dedicated freelancer.
+                <strong>
+                  Developed a full-fledged eCommerce website for &quot;the
+                  SoulSpace,&quot; enhancing customer experience, online sales,
+                  and brand presence.
+                </strong>
+                <br />
+                <br />
+                <br />
+                <strong>User-Centric Design: </strong>
+                Built a comprehensive product catalog with clear categorization
+                and descriptions, facilitating easy product discovery and
+                purchase. <br />
+                <br />
+                <strong>Seamless Shopping Journey: </strong>
+                Created a smooth shopping cart and checkout process with secure
+                payment gateway integration (e.g., Instamojo) for a frictionless
+                buying experience. <br />
+                <br />
+                <strong>Customer Accounts: </strong>
+                Implemented user account functionalities like registration,
+                login, and profile management, fostering customer loyalty and
+                enabling personalized shopping experiences.
+                <br />
+                <br />
+                <strong>Mobile-Responsive Design: </strong>
+                Ensured the website is responsive across various devices
+                (mobiles, tablets, desktops) for improved accessibility and user
+                satisfaction. <br />
+                <br />
+                <strong>Enhanced Transparency: </strong>
+                Implemented order tracking to keep customers informed about
+                their order status, building trust and confidence. Performance
+                Optimization: Optimized website performance for faster loading
+                times and a smooth user experience, leading to reduced bounce
+                rates. <br />
+                <br />
+                <strong>Robust Security: </strong>
+                Implemented security measures to safeguard customer data and
+                transactions, maintaining customer trust and data integrity.
+                <br />
+                <br />
+                <strong>Data-Driven Approach: </strong>
+                Integrated analytics tools (e.g., Google Analytics, Microsoft
+                Clarity) to track store performance, customer behavior, and
+                inform data-driven decision-making for marketing and sales
+                strategies. <br />
+                <br />
+                <strong>SEO Implementation: </strong>
+                Contributed to Search Engine Optimization (SEO) efforts to
+                increase organic website traffic and brand visibility.
               </SlideInText>
             </h4>
             {/* link to open external website */}
@@ -83,14 +126,33 @@ const Work = () => {
             </h2>
             <h4 className="text-gray-600 mt-2">
               <SlideInText onScroll={true} delay={0.5}>
-                Transformed &apos;Miror Institute&apos; with a Student
-                Management System, handling student data, attendance,
-                assessments, and homework submissions via a user-friendly
-                dashboard. Managed staff access, batch organization, and SMS
-                notifications. Replaced traditional methods with Next.js v12,
-                Strapi, Express.js, and PostgreSQL. As a freelance developer, I
-                led the entire project, overcoming rendering challenges and
-                intricate database design, revolutionizing education management
+                <strong>
+                  Developed a comprehensive Student Management System for a K-12
+                  institute, improving communication, efficiency, and
+                  record-keeping for staff and parents.
+                </strong>
+                <br />
+                <br />
+                <strong>User-friendly Features: </strong>
+                Designed a custom calendar UI for attendance tracking, a
+                dedicated parent dashboard for easy access to student
+                information, and intuitive faculty portals with role-based
+                authorization. <br /> <br />
+                <strong>Enhanced Communication: </strong>
+                Implemented attendance reminders, SMS alerts for absences and
+                test results, and work submission notifications, fostering
+                better engagement between parents, staff, and students. <br />
+                <br /> <strong>Streamlined Processes: </strong>
+                Built modules for student management (add, view, export data),
+                test results management (faculty input, parent updates), and
+                work submissions, simplifying record-keeping and saving time for
+                staff. <br /> <br />
+                <strong>Data Management: </strong>
+                Enabled easy import/export of data to Excel sheets, facilitating
+                administrative tasks. <br />
+                <br /> <strong>Modern UI/UX: </strong>
+                Developed a responsive user interface with a clean, modern
+                design for a smooth and intuitive user experience.
               </SlideInText>
             </h4>
             <div className=" cursor-not-allowed">
@@ -128,14 +190,34 @@ const Work = () => {
             </h2>
             <h4 className="text-gray-600 mt-2">
               <SlideInText onScroll={true} delay={0.5}>
-                In a recent project, I crafted a robust product catalog website
-                for a fireworks industry client. This platform showcases 300+
-                products and includes a user-friendly portal for effortless
-                product uploads. Notably, the integration of a WhatsApp bot
-                streamlines the process by allowing direct product submissions
-                via messages, enhancing efficiency and user experience. This
-                project harmoniously merges web development, automation, and
-                client-centric solutions for an impactful outcome.
+                <strong>
+                  Developed a comprehensive product catalog website and
+                  implemented innovative solutions to streamline operations and
+                  increase online presence for Ma Ashapuri Fireworks.
+                </strong>
+                <br />
+                <br />
+                <br />
+                <strong>Robust Product Catalog: </strong>
+                Built a website showcasing over 300 fireworks with detailed
+                descriptions, enhancing product visibility and customer. <br />
+                <br />
+                <strong>Content Management System (CMS): </strong>
+                Designed and implemented a user-friendly portal for effortless
+                product maintenance, allowing the client to update the catalog
+                without technical expertise. <br />
+                <br />
+                <strong>Custom WhatsApp Product Management: </strong>
+                Developed a creative WhatsApp bot using web scraping techniques,
+                enabling the owner to directly submit and update product
+                information through messages, streamlining product management.
+                <br />
+                <br />
+                <strong>Enhanced Online Presence: </strong>
+                Increased brand visibility through strategic SEO implementation.
+                This included adding the business to Google Maps and optimizing
+                the website using Google Search Console and Bing Search Console,
+                leading to significant improvements in search engine rankings.
               </SlideInText>
             </h4>
             {/* link to open external website */}

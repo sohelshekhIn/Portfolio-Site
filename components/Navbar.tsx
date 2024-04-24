@@ -27,25 +27,25 @@ const Navbar = () => {
         animate="visible"
         className="flex justify-around p-5 md:p-5 mx-auto uppercase text-primary text-sm"
       >
-        <a className="w-full text-center" href="#home">
+        <a className="w-full text-center" href="/#home">
           Home
         </a>
-        <a className="w-full text-center" href="#info">
+        <a className="w-full text-center" href="/#info">
           Info
         </a>
-        <a className="w-full text-center" href="#work">
+        <a className="w-full text-center" href="/#work">
           Work
         </a>
-        <a className="w-full text-center" href="#contact">
+        <a className="w-full text-center" href="/#contact">
           Contact
         </a>
-        <a
+        {/* <a
           className="w-full text-center"
           target="_blank"
           href="/Sohel Shekh Resume.pdf"
         >
           Resume
-        </a>
+        </a> */}
       </motion.div>
     </div>
   );
