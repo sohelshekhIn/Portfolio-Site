@@ -104,9 +104,12 @@ const Contact = () => {
           </div>
           <div className="mt-10 text-lightWhite p-2">
             <span className="flex gap-1 justify-center text-xs">
+              <p className="text-center">Made with ❤️</p>
+            </span>
+            {/* <span className="flex gap-1 justify-center text-xs">
               <p className="text-center">Made with ❤️ in</p>
               <Image className="w-4" src={Flag} alt="The Republic of India" />
-            </span>
+            </span> */}
           </div>
         </div>
       </div>
