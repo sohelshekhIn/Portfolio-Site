@@ -2,7 +2,7 @@ const Resume = () => {
   return (
     <div className="h-screen w-screen">
       <object
-        data="/Sohel Shekh -v2.2 Resume.pdf"
+        data="/Sohel Shekh Resume.pdf"
         type="application/pdf"
         width="100%"
         height="100%"
