@@ -1,9 +1,10 @@
 const Resume = () => {
-  const resumeFileName = "Sohel Shekh Resume -v2.0.1.pdf";
+  const resumeFileName = "/Sohel Shekh Resume -v2.0.1.pdf";
   return (
     <div className="h-screen w-screen">
       <a
         target="_blank"
+        rel="noreferrer noopener"
         className=" fixed bottom-10 right-10 z-50 
       bg-primary text-white font-bold py-2 px-4 rounded-full hover:bg-secondary transition duration-300 ease-in-out
       "
