@@ -11,7 +11,7 @@ const Resume = () => {
         Download Resume
       </a>
       <object
-        data="/Sohel Shekh Resume.pdf"
+        data="/Sohel Shekh Resume -v2.0.1.pdf"
         type="application/pdf"
         className="w-full h-auto lg:h-full"
       >
