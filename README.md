@@ -1,34 +1,77 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Sohel Shekh - Portfolio Website
 
-## Getting Started
+A modern, interactive portfolio website built with Next.js 14, TypeScript, and Tailwind CSS. This portfolio showcases my work, skills, and experience in a visually appealing and user-friendly way.
 
-First, run the development server:
+## 🌟 Features
+
+- **Modern Design**: Clean and minimalist interface with smooth animations
+- **Interactive Elements**: Custom animated cursor and hover effects
+- **Responsive Layout**: Fully responsive design that works on all devices
+- **Performance Optimized**: Built with Next.js for optimal performance and SEO
+- **Smooth Animations**: Using Framer Motion for fluid transitions and interactions
+- **Dark Mode**: Elegant dark theme with custom color palette
+- **Analytics Integration**: Built-in analytics with Vercel Analytics and Microsoft Clarity
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 14
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Analytics**: Vercel Analytics, Microsoft Clarity
+- **Deployment**: Vercel
+
+## 📦 Installation
+
+1. Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+git clone https://github.com/yourusername/portfolio-site.git
+```
+
+2. Install dependencies:
+
+```bash
+pnpm install
+```
+
+3. Run the development server:
+
+```bash
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The site is deployed on Vercel. Any push to the main branch will automatically trigger a deployment.
 
-## Learn More
+## 📱 Sections
 
-To learn more about Next.js, take a look at the following resources:
+- **Home**: Introduction and hero section
+- **About**: Personal information and background
+- **Skills**: Technical skills and expertise
+- **Work**: Portfolio projects and experience
+- **Contact**: Contact information and form
+- **Resume**: Downloadable resume
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Customization
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The site uses a custom color scheme and can be easily customized by modifying:
 
-## Deploy on Vercel
+- `tailwind.config.js` for color palette and theme settings
+- `app/globals.css` for global styles
+- Component-specific styles in their respective files
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📄 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contact
+
+Feel free to reach out to me at [hi@sohel.tech](mailtto:hi@sohel.tech) or connect with me on [LinkedIn](https://linkedin.com/in/sohelshekh).
+
+---
+
+Made with ❤️ by Sohel Shekh
