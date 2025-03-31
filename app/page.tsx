@@ -3,6 +3,7 @@ import About from "@/components/About";
 import Work from "@/components/Work";
 
 import type { Metadata } from "next";
+import Hackathons from "@/components/Hackathons";
 
 export const metadata: Metadata = {
   title: "Sohel Shekh - Portfolio",
@@ -34,6 +35,7 @@ export default function Index() {
   return (
     <div className="">
       <LoadingParent />
+      <Hackathons />
       <About />
       <Work />
     </div>
