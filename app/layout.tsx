@@ -1,5 +1,6 @@
 import Contact from "@/components/Contact";
 import Navbar from "../components/Navbar";
+import CustomCursor from "../components/CustomCursor";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Script from "next/script";
@@ -19,7 +20,8 @@ export default function RootLayout({
         <meta name="theme-color" content="#403672" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
-      <body className={inter.className + ""}>
+      <body className={inter.className + " cursor-none"}>
+        <CustomCursor />
         <Navbar />
         {children}
         <Contact />
