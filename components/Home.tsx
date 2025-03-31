@@ -33,7 +33,7 @@ const Home = () => {
                 </h1>
                 <h1 className="text-8xl lg:text-9xl">
                   <PositionAnimatedText delay={baseDelay + 2.8}>
-                    Full Stack Web Dev
+                    Full Stack Dev
                   </PositionAnimatedText>
                 </h1>
               </div>
@@ -41,7 +41,7 @@ const Home = () => {
             <div>
               <h1 className="text-xs md:text-sm lg:text-base font-light">
                 <PositionAnimatedText delay={baseDelay + 3.2} type="small">
-                  A blend of creativity and fun
+                  Turning ideas into impactful solutions
                 </PositionAnimatedText>
               </h1>
             </div>
@@ -50,9 +50,11 @@ const Home = () => {
             <div className="w-1/3"></div>
             <p className="text-primary text-sm md:text-base font-medium text-right font-poppins">
               <SlideInText delay={baseDelay + 3.8}>
-                Passionate freelance Full Stack Web Developer from Canada with
-                over 3+ years of hands-on experience in building stuffs <br />-
-                from pixels to databases.
+                Passionate Full Stack Developer and Hackathon Enthusiast based
+                in Canada with over 3+ years of experience in building scalable
+                web applications and mentoring future innovators. I thrive at
+                the intersection of creativity and technology, crafting
+                solutions that inspire.
               </SlideInText>
             </p>
           </div>
