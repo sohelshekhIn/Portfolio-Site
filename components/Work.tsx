@@ -269,11 +269,13 @@ const Work = () => {
           {/* Knovatek Inc. */}
           <div>
             <h1 className="font-poppins text-secondary text-3xl font-bold">
-              <SlideInText onScroll={true}>Knovatek Inc.</SlideInText>
+              <SlideInText onScroll={true}>
+                Software Developer Co-op
+              </SlideInText>
             </h1>
             <h2 className="text-primary text-xl font-semibold">
               <SlideInText onScroll={true} delay={0.3}>
-                Software Developer Co-op
+                Knovatek Inc.
               </SlideInText>
             </h2>
             <h4 className="text-gray-600 mt-2 leading-relaxed">
@@ -309,13 +311,11 @@ const Work = () => {
           {/* UofTHacks */}
           <div>
             <h1 className="font-poppins text-secondary text-3xl font-bold">
-              <SlideInText onScroll={true}>
-                UofTHacks - University of Toronto
-              </SlideInText>
+              <SlideInText onScroll={true}>Backend Executive</SlideInText>
             </h1>
             <h2 className="text-primary text-xl font-semibold">
               <SlideInText onScroll={true} delay={0.3}>
-                Backend Executive
+                UofTHacks - University of Toronto
               </SlideInText>
             </h2>
             <h4 className="text-gray-600 mt-2 leading-relaxed">
@@ -342,11 +342,11 @@ const Work = () => {
           {/* Zeuty */}
           <div>
             <h1 className="font-poppins text-secondary text-3xl font-bold">
-              <SlideInText onScroll={true}>Zeuty</SlideInText>
+              <SlideInText onScroll={true}>Backend Developer</SlideInText>
             </h1>
             <h2 className="text-primary text-xl font-semibold">
               <SlideInText onScroll={true} delay={0.3}>
-                Backend Developer
+                Zeuty
               </SlideInText>
             </h2>
             <h4 className="text-gray-600 mt-2 leading-relaxed">
@@ -371,11 +371,11 @@ const Work = () => {
           {/* Hackathons Canada */}
           <div>
             <h1 className="font-poppins text-secondary text-3xl font-bold">
-              <SlideInText onScroll={true}>Hackathons Canada</SlideInText>
+              <SlideInText onScroll={true}>Full Stack Executive</SlideInText>
             </h1>
             <h2 className="text-primary text-xl font-semibold">
               <SlideInText onScroll={true} delay={0.3}>
-                Full Stack Executive
+                Hackathons Canada
               </SlideInText>
             </h2>
             <h4 className="text-gray-600 mt-2 leading-relaxed">
@@ -404,11 +404,11 @@ const Work = () => {
           {/* Ashapuri Fireworks */}
           <div>
             <h1 className="font-poppins text-secondary text-3xl font-bold">
-              <SlideInText onScroll={true}>Ashapuri Fireworks</SlideInText>
+              <SlideInText onScroll={true}>Full Stack Developer</SlideInText>
             </h1>
             <h2 className="text-primary text-xl font-semibold">
               <SlideInText onScroll={true} delay={0.3}>
-                Full Stack Developer
+                Ashapuri Fireworks
               </SlideInText>
             </h2>
             <h4 className="text-gray-600 mt-2 leading-relaxed">
@@ -434,11 +434,11 @@ const Work = () => {
           {/* Mirror Institute */}
           <div>
             <h1 className="font-poppins text-secondary text-3xl font-bold">
-              <SlideInText onScroll={true}>Mirror Institute</SlideInText>
+              <SlideInText onScroll={true}>Full Stack Developer</SlideInText>
             </h1>
             <h2 className="text-primary text-xl font-semibold">
               <SlideInText onScroll={true} delay={0.3}>
-                Full Stack Developer
+                Mirror Institute
               </SlideInText>
             </h2>
             <h4 className="text-gray-600 mt-2 leading-relaxed">
