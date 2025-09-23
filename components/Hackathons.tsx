@@ -47,7 +47,7 @@ const HackathonsContribution = () => {
           {/* Hackers Supported */}
           <div className="text-center">
             <OpacityAnimatedElement delay={1.1}>
-              <h2 className="text-primary text-5xl font-bold">1000+</h2>
+              <h2 className="text-primary text-5xl font-bold">1500+</h2>
               <p className="text-gray-600 mt-2 text-lg">
                 Hackers Supported with Technical Guidance
               </p>
