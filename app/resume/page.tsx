@@ -1,5 +1,5 @@
 const Resume = () => {
-  const resumeFileName = "/Sohel Shekh Resume -v2.0.1.pdf";
+  const resumeFileName = "/Sohel_Shekh_resume_v2.1.1.pdf";
   return (
     <div className="h-screen w-screen">
       <a
