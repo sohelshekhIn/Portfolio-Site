@@ -266,201 +266,113 @@ const Work = () => {
           </PositionAnimatedText>
         </h1>
         <div className="py-3 mt-8 flex flex-col gap-16">
+          {/* VP of Backend @ Hack Canada */}
+          <WorkItem
+            title="VP of Backend"
+            company="Hack Canada"
+            description={[
+              "Led backend engineering strategy and architecture, ensuring scalable, secure, and high-performance systems.",
+              "Migrated legacy backend infrastructure to modern platforms, overseeing DNS, database, and core system configurations",
+              "Oversaw API design, infrastructure optimization, and seamless integration with frontend and third-party platforms.",
+            ]}
+          />
+
           {/* Knovatek Inc. */}
-          <div>
-            <h1 className="font-poppins text-secondary text-3xl font-bold">
-              <SlideInText onScroll={true}>
-                Software Developer Co-op
-              </SlideInText>
-            </h1>
-            <h2 className="text-primary text-xl font-semibold">
-              <SlideInText onScroll={true} delay={0.3}>
-                Knovatek Inc.
-              </SlideInText>
-            </h2>
-            <h4 className="text-gray-600 mt-2 leading-relaxed">
-              <SlideInText onScroll={true} delay={0.5}>
-                Spearheaded the development of 3 key features for a
-                client-facing application, improving user engagement by 25%.
-              </SlideInText>
-              <br />
-              <SlideInText onScroll={true} delay={0.6}>
-                Collaborated with a team of 5 developers to resolve 50+ bug
-                reports, ensuring timely product releases and a 98% bug-free
-                production environment.
-              </SlideInText>
-              <br />
-              <SlideInText onScroll={true} delay={0.7}>
-                Enhanced code quality through unit testing, contributing to a
-                40% reduction in post-release issues.
-              </SlideInText>
-              <br />
-              <SlideInText onScroll={true} delay={0.8}>
-                Played a key role in automating deployment processes using CI/CD
-                pipelines, reducing deployment time by 30%.
-              </SlideInText>
-              <br />
-              <SlideInText onScroll={true} delay={0.9}>
-                Wrote and maintained comprehensive technical documentation for
-                new features, enabling quicker onboarding of future team
-                members.
-              </SlideInText>
-            </h4>
-          </div>
+          <WorkItem
+            title="Software Developer Co-op"
+            company="Knovatek Inc."
+            description={[
+              "Spearheaded the development of 3 key features for a client-facing application, improving user engagement by 25%.",
+              "Collaborated with a team of 5 developers to resolve 50+ bug reports, ensuring timely product releases and a 98% bug-free production environment.",
+              "Played a key role in automating deployment processes using CI/CD pipelines, reducing deployment time by 30%.",
+            ]}
+          />
 
           {/* UofTHacks */}
-          <div>
-            <h1 className="font-poppins text-secondary text-3xl font-bold">
-              <SlideInText onScroll={true}>Backend Executive</SlideInText>
-            </h1>
-            <h2 className="text-primary text-xl font-semibold">
-              <SlideInText onScroll={true} delay={0.3}>
-                UofTHacks - University of Toronto
-              </SlideInText>
-            </h2>
-            <h4 className="text-gray-600 mt-2 leading-relaxed">
-              <SlideInText onScroll={true} delay={0.5}>
-                Migrated backend infrastructure from JavaScript to TypeScript,
-                improving maintainability and scalability by 18%.
-              </SlideInText>
-              <br />
-              <SlideInText onScroll={true} delay={0.6}>
-                Designed multiple RESTful API endpoints, reducing response times
-                by up to 40%. Integrated OpenAPI documentation, streamlining
-                developer onboarding and reducing errors by 30%.
-              </SlideInText>
-              <br />
-              <SlideInText onScroll={true} delay={0.7}>
-                Revamped user and admin dashboards with a modern UI/UX design,
-                introducing real-time analytics and notifications. Strengthened
-                system security with JWT authentication and role-based access
-                controls.
-              </SlideInText>
-            </h4>
-          </div>
+          <WorkItem
+            title="Backend Executive"
+            company="UofTHacks - University of Toronto"
+            description={[
+              "Migrated backend infrastructure from JavaScript to TypeScript, improving maintainability and scalability by 18%.",
+              "Designed multiple RESTful API endpoints, reducing response times by up to 40%. Integrated OpenAPI documentation, streamlining developer onboarding and reducing errors by 30%.",
+              "Revamped user and admin dashboards with a modern UI/UX design, introducing real-time analytics and notifications. Strengthened system security with JWT authentication and role-based access controls.",
+            ]}
+          />
 
           {/* Zeuty */}
-          <div>
-            <h1 className="font-poppins text-secondary text-3xl font-bold">
-              <SlideInText onScroll={true}>Backend Developer</SlideInText>
-            </h1>
-            <h2 className="text-primary text-xl font-semibold">
-              <SlideInText onScroll={true} delay={0.3}>
-                Zeuty
-              </SlideInText>
-            </h2>
-            <h4 className="text-gray-600 mt-2 leading-relaxed">
-              <SlideInText onScroll={true} delay={0.5}>
-                Built scalable backend solutions using Express.js and
-                TypeScript, supporting onboarding of 4k+ users.
-              </SlideInText>
-              <br />
-              <SlideInText onScroll={true} delay={0.6}>
-                Designed a PostgreSQL schema with 12 tables and optimized
-                database queries, improving data retrieval speed by 30%.
-              </SlideInText>
-              <br />
-              <SlideInText onScroll={true} delay={0.7}>
-                Created reusable utility functions, reducing code duplication by
-                600–650 lines. Configured an email server to integrate
-                transactional emails, improving communication efficiency.
-              </SlideInText>
-            </h4>
-          </div>
+          <WorkItem
+            title="Backend Developer"
+            company="Zeuty"
+            description={[
+              "Built scalable backend solutions using Express.js and TypeScript, supporting onboarding of 4k+ users.",
+              "Designed a PostgreSQL schema with 12 tables and optimized database queries, improving data retrieval speed by 30%.",
+              "Created reusable utility functions, reducing code duplication by 600–650 lines. Configured an email server to integrate transactional emails, improving communication efficiency.",
+            ]}
+          />
 
           {/* Hackathons Canada */}
-          <div>
-            <h1 className="font-poppins text-secondary text-3xl font-bold">
-              <SlideInText onScroll={true}>Full Stack Executive</SlideInText>
-            </h1>
-            <h2 className="text-primary text-xl font-semibold">
-              <SlideInText onScroll={true} delay={0.3}>
-                Hackathons Canada
-              </SlideInText>
-            </h2>
-            <h4 className="text-gray-600 mt-2 leading-relaxed">
-              <SlideInText onScroll={true} delay={0.5}>
-                Contributed to the design and development of user-friendly
-                interfaces for the hacker dashboard, focusing on responsive
-                layouts and modern design principles to enhance accessibility
-                across devices.
-              </SlideInText>
-              <br />
-              <SlideInText onScroll={true} delay={0.6}>
-                Assisted with implementing backend features for the admin
-                dashboard, including real-time analytics and event management
-                tools, while optimizing database queries and integrating secure
-                APIs.
-              </SlideInText>
-              <br />
-              <SlideInText onScroll={true} delay={0.7}>
-                Supported the management of hackathon logistics, including
-                participant registration, team formation, and event scheduling,
-                ensuring smooth event execution.
-              </SlideInText>
-            </h4>
-          </div>
+          <WorkItem
+            title="Full Stack Executive"
+            company="Hackathons Canada"
+            description={[
+              "Contributed to the design and development of user-friendly interfaces for the hacker dashboard, focusing on responsive layouts and modern design principles to enhance accessibility across devices.",
+              "Assisted with implementing backend features for the admin dashboard, including real-time analytics and event management tools, while optimizing database queries and integrating secure APIs.",
+              "Supported the management of hackathon logistics, including participant registration, team formation, and event scheduling, ensuring smooth event execution.",
+            ]}
+          />
 
           {/* Ashapuri Fireworks */}
-          <div>
-            <h1 className="font-poppins text-secondary text-3xl font-bold">
-              <SlideInText onScroll={true}>Full Stack Developer</SlideInText>
-            </h1>
-            <h2 className="text-primary text-xl font-semibold">
-              <SlideInText onScroll={true} delay={0.3}>
-                Ashapuri Fireworks
-              </SlideInText>
-            </h2>
-            <h4 className="text-gray-600 mt-2 leading-relaxed">
-              <SlideInText onScroll={true} delay={0.5}>
-                Developed a product catalog website showcasing over 300
-                fireworks with detailed descriptions.
-              </SlideInText>
-              <br />
-              <SlideInText onScroll={true} delay={0.6}>
-                Created a custom WhatsApp bot for seamless product management
-                via messages using web scraping techniques.
-              </SlideInText>
-              <br />
-              <SlideInText onScroll={true} delay={0.7}>
-                Enhanced online presence through strategic SEO implementation
-                and Google Maps integration. Optimized website performance using
-                Google Search Console and Bing Search Console for better search
-                engine rankings.
-              </SlideInText>
-            </h4>
-          </div>
-
+          <WorkItem
+            title="Full Stack Developer"
+            company="Ashapuri Fireworks"
+            description={[
+              "Developed a product catalog website showcasing over 300 fireworks with detailed descriptions.",
+              "Created a custom WhatsApp bot for seamless product management via messages using web scraping techniques.",
+              "Enhanced online presence through strategic SEO implementation and Google Maps integration. Optimized website performance using Google Search Console and Bing Search Console for better search engine rankings.",
+            ]}
+          />
           {/* Mirror Institute */}
-          <div>
-            <h1 className="font-poppins text-secondary text-3xl font-bold">
-              <SlideInText onScroll={true}>Full Stack Developer</SlideInText>
-            </h1>
-            <h2 className="text-primary text-xl font-semibold">
-              <SlideInText onScroll={true} delay={0.3}>
-                Mirror Institute
-              </SlideInText>
-            </h2>
-            <h4 className="text-gray-600 mt-2 leading-relaxed">
-              <SlideInText onScroll={true} delay={0.5}>
-                Developed a Student Management System for a K–12 institute,
-                improving communication between staff and parents.
-              </SlideInText>
-              <br />
-              <SlideInText onScroll={true} delay={0.6}>
-                Built custom calendar UI for attendance tracking and dashboards
-                with role-based access for parents and faculty.
-              </SlideInText>
-              <br />
-              <SlideInText onScroll={true} delay={0.7}>
-                Implemented SMS alerts for absences and test results, improving
-                parent engagement. Streamlined administrative tasks with Excel
-                import/export functionality for data management.
-              </SlideInText>
-            </h4>
-          </div>
+          <WorkItem
+            title="Full Stack Developer"
+            company="Mirror Institute"
+            description={[
+              "Developed a Student Management System for a K–12 institute, improving communication between staff and parents.",
+              "Built custom calendar UI for attendance tracking and dashboards with role-based access for parents and faculty.",
+              "Implemented SMS alerts for absences and test results, improving parent engagement. Streamlined administrative tasks with Excel import/export functionality for data management.",
+            ]}
+          />
         </div>
       </div>
+    </div>
+  );
+};
+
+const WorkItem = ({
+  title,
+  company,
+  description,
+}: {
+  title: string;
+  company: string;
+  description: string[];
+}) => {
+  return (
+    <div>
+      <h1 className="font-poppins text-secondary text-3xl font-bold">
+        <SlideInText onScroll={true}>{title}</SlideInText>
+      </h1>
+      <h2 className="text-primary text-xl font-semibold">
+        <SlideInText onScroll={true} delay={0.3}>
+          {company}
+        </SlideInText>
+      </h2>
+      <h4 className="text-gray-600 mt-2 leading-relaxed">
+        {description.map((item, index) => (
+          <SlideInText key={index} onScroll={true} delay={0.5 + index * 0.1}>
+            {item}
+          </SlideInText>
+        ))}
+      </h4>
     </div>
   );
 };
