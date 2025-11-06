@@ -269,6 +269,15 @@ interface WorkExperience {
 
 const experiences: WorkExperience[] = [
   {
+    title: "Incomming Co-op Developer - QA",
+    company: "Government of Ontario",
+    startDate: "Jan 2026",
+    endDate: "Apr 2026",
+    description: [
+      "I will be working as a Developer for Quality Assurance Services in the Enterprise Applications Branch, supporting the Treasury Board of Canada Secretariat, under the Ministry of Public and Business Service Delivery and Procurement (MPBSDP).",
+    ],
+  },
+  {
     title: "VP of Backend",
     company: "Hack Canada",
     startDate: "Sep 2025",
