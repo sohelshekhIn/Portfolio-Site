@@ -274,7 +274,7 @@ const experiences: WorkExperience[] = [
     startDate: "Jan 2026",
     endDate: "Apr 2026",
     description: [
-      "I will be working as a Developer for Quality Assurance Services in the Enterprise Applications Branch, supporting the Treasury Board of Canada Secretariat, under the Ministry of Public and Business Service Delivery and Procurement (MPBSDP).",
+      "Will be joining the Quality Assurance Services team as a Developer in the Enterprise Applications Branch, supporting the Treasury Board of Canada Secretariat under the Ministry of Public and Business Service Delivery and Procurement (MPBSDP).",
     ],
   },
   {
