@@ -51,7 +51,7 @@ const Home = () => {
             <p className="text-primary text-sm md:text-base font-medium text-right font-poppins">
               <SlideInText delay={baseDelay + 3.8}>
                 Passionate Full Stack Developer and Hackathon Enthusiast based
-                in Canada with over 3+ years of experience in building scalable
+                in Canada with over 4+ years of experience in building scalable
                 web applications and mentoring future innovators. I thrive at
                 the intersection of creativity and technology, crafting
                 solutions that inspire.
