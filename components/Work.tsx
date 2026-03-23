@@ -272,7 +272,7 @@ const experiences: WorkExperience[] = [
     title: "Incomming Co-op Developer - QA",
     company: "Government of Ontario",
     startDate: "Jan 2026",
-    endDate: "Apr 2026",
+    endDate: "Present (Apr 2026)",
     description: [
       "Will be joining the Quality Assurance Services team as a Developer in the Enterprise Applications Branch, supporting the Treasury Board of Canada Secretariat under the Ministry of Public and Business Service Delivery and Procurement (MPBSDP).",
     ],
@@ -431,7 +431,7 @@ const WorkItem = ({
   description,
   isLast,
 }: WorkExperience & { isLast: boolean }) => {
-  const isPresent = endDate.toLowerCase() === "present";
+  const isPresent = endDate.toLowerCase().includes("present");
 
   return (
     <div className={`relative pl-8 md:pl-12 ${!isLast ? "pb-12" : ""}`}>
